@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TeenJobs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>TeenJobs</h1>
+  </header>
+
+  <main>
+    <section id="profile-section">
+      <h2>Create Your Profile</h2>
+      <form id="profile-form">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="number" id="age" placeholder="Age" required>
+        <input type="text" id="skills" placeholder="Skills" required>
+        <input type="text" id="availability" placeholder="Availability" required>
+        <input type="text" id="location" placeholder="Location" required>
+        <button type="submit">Save Profile</button>
+      </form>
+    </section>
+
+    <section id="jobs-section">
+      <h2>Available Jobs</h2>
+      <ul id="job-list"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
